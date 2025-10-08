@@ -1,16 +1,56 @@
-# ortez_test
+# 📰 Flutter News App
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+A **beautiful, fast, and simple Flutter News App** that lets users browse the latest headlines and read full articles. Built with **Provider** for smooth state management and **Hero animations** for seamless transitions.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🌟 Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Latest News Feed** with title, image, description, and published date  
+- **Infinite Scroll** & **Pull-to-Refresh**  
+- **Search Bar** to find articles by keywords or titles  
+- **Article Detail Screen** showing full content, author, and image  
+- **Smooth Navigation** with slide/fade transitions & Hero animations  
+
+---
+🗂 Project Structure
+lib/
+├── main.dart
+├── models/          # Article models
+├── providers/       # Provider for state management
+├── screens/         # News feed & detail screens
+├── services/        # API integration
+├── widgets/         # Reusable components
+
+---
+
+## ⚡ Tech Stack
+
+- **Flutter & Dart** – Cross-platform UI & logic  
+- **Provider** – State management  
+- **NewsAPI** – Fetching live news articles  
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository:  
+
+git clone https://github.com/yourusername/flutter-news-app.git
+cd flutter-news-app
+
+2. Install dependencies:
+
+flutter pub get
+
+
+3. Add your NewsAPI key in lib/services/news_service.dart:
+
+const String apiKey = "YOUR_API_KEY";
+
+
+4. Run the app:
+
+flutter run
